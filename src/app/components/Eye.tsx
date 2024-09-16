@@ -5,7 +5,7 @@ function Eye() {
   return (
     <div className='eye-container'>
         <div className='sclera'>
-            <div className='iris'>
+            <div className='iris iris-animation'>
                 <div className='iris-shadow'></div>
                 <div className='pupil'></div>
             </div>

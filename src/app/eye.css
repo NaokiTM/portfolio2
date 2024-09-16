@@ -1,0 +1,48 @@
+.eye-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sclera {
+    width: 200px;
+    height: 200px;
+    background: white;
+    transform: rotate(45deg);
+    border-radius: 80% 0;
+    border: 2px solid black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iris {
+    width: 150px;
+    height: 150px;
+    background: brown;
+    border-radius: 50%;
+    transform: translate(-3%, -3%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid brown;
+    overflow: hidden;
+}
+
+.pupil {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: black;
+    border-radius: 50%;
+    border: 3px solid brown;
+}
+
+.iris-shadow {
+    transform: translate(-100%, -0%);
+    width: 60px;
+    height: 60px;
+    background: white;
+    clip-path: polygon(20% 20%, 100% 35%, 100% 65%, 20% 90%);
+}

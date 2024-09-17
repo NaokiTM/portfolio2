@@ -2,8 +2,6 @@ import React from 'react'
 
 export default function Hero() {
   return (
-    <>
-      <div className='flex justify-center items-center text-160px font-medium tracking-tighter'>Naoki Miyagawa</div>
-    </>
+    <div className='text-160px font-medium tracking-tighter leading-none bg-white h-[95vh]'>Naoki Miyagawa</div>
   )
 }
